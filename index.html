@@ -1,154 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abdelazyz Rkhiss | PhD Researcher</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdelazyz Rkhiss | PhD Researcher</title>
+
+  <!-- Materialize CSS -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Abdelazyz Rkhiss</h1>
-    <p>PhD Researcher in Deep Learning, Image & Signal Processing</p>
+<!-- Sidebar -->
+<nav class="hide-on-small-only">
+  <ul class="side-nav fixed section table-of-contents">
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#publications">Publications</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+    <li class="logo">
+      <img src="assets/img/profile.jpg"
+           class="circle responsive-img profile-pic"
+           alt="Abdelazyz Rkhiss">
+    </li>
 
-<section id="about">
-<h2>About Me</h2>
-<p>
-I am a PhD researcher at GIPSA-Lab (Grenoble INP) working for Engie Company, on deep learning
-methods for acoustic signal processing and wind turbine noise estimation.
-My research focuses on AI-driven modeling, spectrogram analysis,
-and environmental data for wind turbine noise simulations.
-</p>
-</section>
+    <li><a href="#about" class="teal-text">About</a></li>
+    <li><a href="#education" class="teal-text">Education</a></li>
+    <li><a href="#publications" class="teal-text">Publications</a></li>
+    <li><a href="#contact" class="teal-text">Contact</a></li>
+  </ul>
+</nav>
 
-<section id="education">
-<h2>Education</h2>
+<main style="margin-left:300px;">
 
-<ul>
-<li><b>PhD Signal, Image, Speech & Telecoms</b> — Grenoble INP (2023–2026)<br>CIFRE thesis with ENGIE</li>
+  <!-- ABOUT -->
+  <section id="about" class="section scrollspy">
+    <h3 class="page-title teal white-text">About</h3>
+    <div class="container">
+      <p class="flow-text">
+        I am a PhD researcher specializing in deep learning and acoustic signal
+        processing. My research focuses on AI-driven modeling and wind turbine
+        noise estimation.
+      </p>
+    </div>
+  </section>
 
-<li><b>Master’s in Business Intelligence & Smart Vision</b> — USMBA Fès (2021–2023)<br>Graduated with honors</li>
+  <!-- EDUCATION -->
+  <section id="education" class="section scrollspy">
+    <h3 class="page-title teal white-text">Education</h3>
+    <div class="container">
 
-<li><b>Bachelor’s in Mathematics & Computer Science</b> — FPO Ouarzazate (2018–2021)<br>Graduated with honors</li>
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title teal-text">
+            Grenoble INP
+          </span>
+          <p><strong>PhD in Signal Processing</strong> (2023–2026)</p>
+          <p>Grenoble, France</p>
+        </div>
+      </div>
 
-<li>High School Diploma (Baccaloreat) in Mathematical Sciences (2016–2017)</li>
-</ul>
+    </div>
+  </section>
 
-</section>
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="section scrollspy">
+    <h3 class="page-title teal white-text">Publications</h3>
+    <div class="container">
 
-<section id="publications">
-<h2>Publications & Conferences</h2>
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title teal-text">
+            Automatic wind turbine noise estimation using RNNs
+          </span>
+          <p>Inter-Noise Conference, 2024</p>
+        </div>
+        <div class="card-action">
+          <a href="papers/internoise2024.pdf" target="_blank">PDF</a>
+        </div>
+      </div>
 
-<ul>
-<li>
-<b>Impact of environmental data on wind turbine noise estimation</b><br>
-International Conference on Wind Turbine Noise — Copenhagen, 2025
-</li>
+    </div>
+  </section>
 
-<li>
-<b>Wind turbine spectrograms reconstruction using deep learning</b><br>
-Congrès Français d’Acoustique — Paris, 2025
-</li>
+  <!-- CONTACT -->
+  <section id="contact" class="section scrollspy">
+    <h3 class="page-title teal white-text">Contact</h3>
+    <div class="container">
+      <p>
+        <a href="mailto:abdelazyz.rkhiss@grenoble-inp.fr">
+          <i class="fa fa-envelope"></i> Email
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/YOUR_USERNAME" target="_blank">
+          <i class="fa fa-github"></i> GitHub
+        </a>
+      </p>
+    </div>
+  </section>
 
-<li>
-<b>Automatic wind turbine noise estimation using RNNs</b><br>
-Inter-Noise Conference — Nantes, 2024
-</li>
-</ul>
+</main>
 
-</section>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-<section id="experience">
-<h2>Research Experience</h2>
+<!-- Materialize JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
 
-<ul>
-<li>
-<b>Research Internship — ENGIE Green (2023)</b><br>
-Acoustic signal processing, dataset creation,
-deep learning model training and evaluation.
-</li>
-
-<li>
-<b>End-of-Study Internship — FPO (2021)</b><br>
-Medical imaging and CNN-based classification.
-</li>
-</ul>
-
-</section>
-
-<section id="skills">
-<h2>Skills</h2>
-
-<p><b>Programming:</b> Python, Matlab, C, Java</p>
-<p><b>Libraries:</b> PyTorch, TensorFlow, Pandas, NumPy, Scikit-learn</p>
-<p><b>AI/ML:</b> Neural Networks, SVM, KNN, RL, Naïve Bayes</p>
-<p><b>Databases:</b> SQL, Oracle</p>
-<p><b>Video Analysis:</b> YOLO, RCNN, SIFT, GMM</p>
-
-<p><b>Languages:</b> Amazigh (native), French (fluent), Arabic (fluent), English (B2)</p>
-
-</section>
-
-<section id="projects">
-<h2>Academic Projects</h2>
-
-<ul>
-<li>Medical imaging deep learning analysis</li>
-<li>Object detection & video analysis</li>
-<li>Big Data tweet analysis (Kafka & Elasticsearch)</li>
-<li>Matlab GUI for image processing</li>
-<li>Image segmentation using deep learning</li>
-</ul>
-
-</section>
-
-<section id="teaching">
-<h2>Teaching & Activities</h2>
-
-<ul>
-<li>Part-time teacher — University of Grenoble Alpes (2024)</li>
-<li>Professor for high school students — Armée de Salut (2025)</li>
-<li>Member — IAESTE France (2023)</li>
-<li>Volunteer math teacher — GHIRASS orphanage (2019)</li>
-<li>ENACTUS Morocco — IT Assistant (2018)</li>
-</ul>
-
-</section>
-
-<section id="contact">
-<h2>Contact</h2>
-
-<p>Email: abdelazyz.rkhiss@grenoble-inp.fr</p>
-
-<p>
-LinkedIn:
-<a href="https://www.linkedin.com/in/abdelazyz-rkhiss-03260520a/" target="_blank">
-View Profile
-</a>
-</p>
-
-<p>Location: Grenoble, France</p>
-
-</section>
-
-<footer>
-<p>© 2026 Abdelazyz Rkhiss — Academic Portfolio</p>
-</footer>
+<script>
+$(document).ready(function () {
+  $('.scrollspy').scrollSpy();
+});
+</script>
 
 </body>
 </html>
-
