@@ -82,3 +82,33 @@ h2 {
 section {
   margin-bottom: 60px;
 }
+
+/* EXPERIENCE */
+
+.exp-item {
+  display: flex;
+  margin-top: 25px;
+}
+
+.exp-date {
+  width: 130px;
+  font-size: 14px;
+  color: #444;
+}
+
+.exp-content {
+  flex: 1;
+}
+
+.exp-title {
+  font-weight: 600;
+}
+
+.exp-org {
+  font-style: italic;
+}
+
+.exp-content ul {
+  margin-top: 5px;
+}
+
