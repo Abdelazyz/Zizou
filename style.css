@@ -71,6 +71,14 @@ h2 {
   color: #444;
 }
 
+.pdf-link {
+  font-size: 14px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #3b6ea5;
+}
+
+
 section {
   margin-bottom: 60px;
 }
