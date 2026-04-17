@@ -4,222 +4,406 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Abdelazyz Rkhiss — PhD Candidate in Deep Learning for Acoustic Signal Processing at GIPSA-Lab, Grenoble INP, with ENGIE.">
+<meta name="keywords" content="Abdelazyz Rkhiss, PhD, Deep Learning, Acoustic Signal Processing, Wind Turbine Noise, GIPSA-Lab, Grenoble INP, ENGIE, RNN, Spectrogram">
 <link rel="icon" type="image/png" href="favicon.jpeg">
 
-<title>Abdelazyz Rkhiss | PhD</title>
+<title>Abdelazyz Rkhiss | PhD Candidate</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <link rel="stylesheet" href="style.css">
 
-<meta property="og:title" content="Abdelazyz Rkhiss">
-<meta property="og:description" content="PhD Candidate in Deep Learning for Acoustic Signal Processing">
+<!-- Open Graph -->
+<meta property="og:title" content="Abdelazyz Rkhiss — PhD Candidate">
+<meta property="og:description" content="PhD Candidate in Deep Learning for Acoustic Signal Processing at GIPSA-Lab, Grenoble INP.">
 <meta property="og:image" content="https://abdelazyz.github.io/Zizou/favicon.jpeg">
 <meta property="og:url" content="https://abdelazyz.github.io/Zizou/">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://abdelazyz.github.io/Zizou/favicon.jpeg">
 
-
 </head>
 
 <body>
 
+<!-- ================= MOBILE TOP BAR ================= -->
+<div class="mobile-topbar">
+  <span class="mobile-name">Abdelazyz Rkhiss</span>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+</div>
+
 <!-- ================= LEFT SIDEBAR ================= -->
+<div class="sidebar" id="sidebar">
 
-<div class="sidebar">
+  <img src="1682339328132.jpg" class="profile" alt="Abdelazyz Rkhiss">
 
-<img src="1682339328132.jpg" class="profile">
+  <h2>Abdelazyz Rkhiss</h2>
+  <p class="sidebar-subtitle">PhD Candidate<br><span style="font-size:13px;color:#777;">GIPSA-Lab · Grenoble INP · ENGIE</span></p>
 
-<h2>Abdelazyz Rkhiss</h2>
-<p>PhD Candidate</p>
+  <hr>
 
-<hr>
+  <nav>
+    <a href="#about" onclick="closeMenu()"><i class="fa-solid fa-user"></i> About</a>
+    <a href="#education" onclick="closeMenu()"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+    <a href="#skills" onclick="closeMenu()"><i class="fa-solid fa-cogs"></i> Skills</a>
+    <a href="#publications" onclick="closeMenu()"><i class="fa-solid fa-book"></i> Publications</a>
+    <a href="#experience" onclick="closeMenu()"><i class="fa-solid fa-briefcase"></i> Experience</a>
+    <a href="#projects" onclick="closeMenu()"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+    <a href="#contact" onclick="closeMenu()"><i class="fa-solid fa-envelope"></i> Contact</a>
+  </nav>
 
-<a href="#about">About</a>
-<a href="#education">Education</a>
-<a href="#publications">Publications</a>
-<a href="#experience">Experience</a>
-<a href="#contact">Contact</a>
+  <hr>
 
-<hr>
-
-<a href="CV_RKHISS_PhD.pdf" target="_blank">Download CV</a>
-<a href="https://scholar.google.fr/citations?user=_xUsSoEAAAAJ&hl=en" target="_blank">Google Scholar</a>
-<a href="https://github.com/Abdelazyz" target="_blank">GitHub</a>
-<a href="https://www.linkedin.com/in/abdelazyz-rkhiss-03260520a/" target="_blank">LinkedIn</a>
+  <div class="sidebar-links">
+    <a href="CV_RKHISS_PhD.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> Download CV</a>
+    <a href="https://scholar.google.fr/citations?user=_xUsSoEAAAAJ&hl=en" target="_blank"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a>
+    <a href="https://github.com/Abdelazyz" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/abdelazyz-rkhiss-03260520a/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+  </div>
 
 </div>
 
 <!-- ================= MAIN CONTENT ================= -->
-
 <div class="content">
 
-<section id="about">
-<h2>About</h2>
+  <!-- ABOUT -->
+  <section id="about" class="fade-in">
+    <h2><i class="fa-solid fa-user section-icon"></i> About</h2>
 
-<p>
-PhD candidate at GIPSA-Lab (Grenoble INP) working with ENGIE through a CIFRE thesis on deep learning for acoustic signal processing and wind turbine noise.
-</p>
+    <p>
+      I am a PhD candidate at <strong>GIPSA-Lab</strong> (Grenoble INP – UGA) working in collaboration with <strong>ENGIE Green</strong> through a CIFRE industrial thesis. My research focuses on developing <strong>deep learning methods for acoustic signal processing</strong>, with a particular emphasis on wind turbine noise estimation and monitoring.
+    </p>
 
-</section>
+    <p>
+      My work involves designing recurrent neural network architectures to automatically estimate noise levels from acoustic measurements, and exploring the contribution of environmental data (wind speed, direction, temperature) to improve spectrogram reconstruction and noise prediction accuracy.
+    </p>
 
-<section id="education">
-<h2>Education</h2>
+    <p>
+      I am passionate about bridging the gap between signal processing theory and real-world industrial applications in renewable energy and environmental acoustics.
+    </p>
 
-<p>
-<strong>PhD in Signal, Image, Speech and Telecom</strong><br>
-Grenoble INP – GIPSA-Lab (2023–2026)
-</p>
+    <div class="tags">
+      <span class="tag">Deep Learning</span>
+      <span class="tag">Acoustic Signal Processing</span>
+      <span class="tag">Wind Turbine Noise</span>
+      <span class="tag">Recurrent Neural Networks</span>
+      <span class="tag">Spectrogram Reconstruction</span>
+      <span class="tag">Environmental Acoustics</span>
+      <span class="tag">CIFRE Thesis</span>
+      <span class="tag">Renewable Energy</span>
+    </div>
 
-<p>
-<strong>Master’s in Business Intelligence & Smart Vision</strong><br>
-USMBA University (2021–2023)
-End-of-study internship at ENGIE Green.
-</p>
+  </section>
 
-<p>
-<strong>Bachelor’s in Fundamental Mathematics, Computer Science and Applications</strong><br>
-Polythecnique Faculty (2018–2021)
-End-of-study internship in Computer Vision.
-</p>
+  <!-- EDUCATION -->
+  <section id="education" class="fade-in">
+    <h2><i class="fa-solid fa-graduation-cap section-icon"></i> Education</h2>
 
-<p>
-<strong>High School Diploma in Mathematical Sciences</strong><br>
-Boumalne Dadès High school (2017)
-</p>
+    <div class="edu-item">
+      <div class="edu-year">2023 – 2026</div>
+      <div class="edu-detail">
+        <strong>PhD in Signal, Image, Speech and Telecom</strong><br>
+        Grenoble INP – GIPSA-Lab, Grenoble, France<br>
+        <span class="edu-note">CIFRE thesis with ENGIE Green · Deep learning for acoustic signal processing</span>
+      </div>
+    </div>
 
-</section>
+    <div class="edu-item">
+      <div class="edu-year">2021 – 2023</div>
+      <div class="edu-detail">
+        <strong>Master's in Business Intelligence &amp; Smart Vision</strong><br>
+        USMBA University, Fez, Morocco<br>
+        <span class="edu-note">End-of-study internship at ENGIE Green, Lyon</span>
+      </div>
+    </div>
 
+    <div class="edu-item">
+      <div class="edu-year">2018 – 2021</div>
+      <div class="edu-detail">
+        <strong>Bachelor's in Fundamental Mathematics, Computer Science and Applications</strong><br>
+        Polytechnic Faculty, Ouarzazate, Morocco<br>
+        <span class="edu-note">End-of-study internship in Computer Vision</span>
+      </div>
+    </div>
 
+    <div class="edu-item">
+      <div class="edu-year">2017</div>
+      <div class="edu-detail">
+        <strong>High School Diploma in Mathematical Sciences</strong><br>
+        Boumalne Dadès High School, Morocco
+      </div>
+    </div>
 
+  </section>
 
-<section id="publications">
-<h2>Communications and Publications</h2>
+  <!-- SKILLS -->
+  <section id="skills" class="fade-in">
+    <h2><i class="fa-solid fa-cogs section-icon"></i> Skills &amp; Tools</h2>
 
-<div class="publication">
+    <div class="skills-grid">
 
-<span class="pub-title">
-Impact of environmental data on wind turbine noise level estimation
-</span><br>
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-code"></i> Programming</h3>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">MATLAB</span>
+          <span class="tag">SQL</span>
+        </div>
+      </div>
 
-<span class="pub-conf">
-International Conference on Wind Turbine Noise,
-Copenhagen, June 2025.
-</span>
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-brain"></i> Deep Learning</h3>
+        <div class="tags">
+          <span class="tag">PyTorch</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">Keras</span>
+          <span class="tag">Scikit-learn</span>
+        </div>
+      </div>
 
-<a class="pdf-link" href="papers/WTN_conference_paper.pdf" target="_blank">
-[PDF]
-</a>
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-wave-square"></i> Signal Processing</h3>
+        <div class="tags">
+          <span class="tag">Acoustic Analysis</span>
+          <span class="tag">Spectrograms</span>
+          <span class="tag">FFT</span>
+          <span class="tag">Noise Estimation</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-wrench"></i> Tools</h3>
+        <div class="tags">
+          <span class="tag">Git</span>
+          <span class="tag">LaTeX</span>
+          <span class="tag">Linux</span>
+          <span class="tag">Jupyter</span>
+          <span class="tag">Docker</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="fade-in">
+    <h2><i class="fa-solid fa-book section-icon"></i> Communications &amp; Publications</h2>
+
+    <div class="publication">
+      <span class="pub-badge">Conference</span>
+      <span class="pub-title">
+        Impact of environmental data on wind turbine noise level estimation
+      </span><br>
+      <span class="pub-authors">A. Rkhiss, et al.</span><br>
+      <span class="pub-conf">
+        International Conference on Wind Turbine Noise, Copenhagen, June 2025.
+      </span>
+      <div class="pub-links">
+        <a class="pdf-link" href="papers/WTN_conference_paper.pdf" target="_blank">
+          <i class="fa-solid fa-file-pdf"></i> PDF
+        </a>
+        <a class="pdf-link" href="https://oaskpublishers.com/assets/article-pdf/impact-of-environmental-data-on-wind-turbine-noise-level-estimation.pdf" target="_blank">
+          <i class="fa-solid fa-unlock"></i> Open Access
+        </a>
+      </div>
+    </div>
+
+    <div class="publication">
+      <span class="pub-badge">Conference</span>
+      <span class="pub-title">
+        Constructing wind turbine noise spectrograms using deep learning: contribution of environmental data
+      </span><br>
+      <span class="pub-authors">A. Rkhiss, et al.</span><br>
+      <span class="pub-conf">
+        Congrès Français d'Acoustique, Paris, April 2025.
+      </span>
+      <div class="pub-links">
+        <a class="pdf-link" href="papers/RKHISS_Paper_CFA.pdf" target="_blank">
+          <i class="fa-solid fa-file-pdf"></i> PDF
+        </a>
+      </div>
+    </div>
+
+    <div class="publication">
+      <span class="pub-badge">Conference</span>
+      <span class="pub-title">
+        Automatic estimation of wind turbine noise with recurrent neural networks
+      </span><br>
+      <span class="pub-authors">A. Rkhiss, et al.</span><br>
+      <span class="pub-conf">
+        International Conference Inter-Noise, Nantes, August 2024.
+      </span>
+      <div class="pub-links">
+        <a class="pdf-link" href="papers/IN_2024_3265.pdf" target="_blank">
+          <i class="fa-solid fa-file-pdf"></i> PDF
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="fade-in">
+    <h2><i class="fa-solid fa-briefcase section-icon"></i> Research Experience</h2>
+
+    <div class="exp-item">
+      <div class="exp-date">
+        10/2023 – Present
+      </div>
+      <div class="exp-content">
+        <span class="exp-title">
+          PhD Researcher (CIFRE),
+          <span class="exp-org">GIPSA-Lab &amp; ENGIE Green</span>, Grenoble
+        </span>
+        <ul>
+          <li>Deep learning for wind turbine noise estimation and monitoring.</li>
+          <li>Recurrent neural network architectures for spectrogram reconstruction.</li>
+          <li>Integration of environmental data to improve acoustic predictions.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-date">
+        03/2023 – 08/2023
+      </div>
+      <div class="exp-content">
+        <span class="exp-title">
+          Research Internship,
+          <span class="exp-org">ENGIE Green</span>, Lyon
+        </span>
+        <ul>
+          <li>Acoustic signal processing.</li>
+          <li>Synthesis of wind turbine noise and dataset creation.</li>
+          <li>Deep learning model training, evaluation and visualization.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-date">
+        12/2020 – 06/2021
+      </div>
+      <div class="exp-content">
+        <span class="exp-title">
+          End-of-Study Internship,
+          <span class="exp-org">FPO</span>, Ouarzazate
+        </span>
+        <ul>
+          <li>Introduction to medical imaging and image processing.</li>
+          <li>Built a convolutional neural network model for classification.</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="fade-in">
+    <h2><i class="fa-solid fa-diagram-project section-icon"></i> Research Projects</h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3><i class="fa-solid fa-wind"></i> Wind Turbine Noise Estimation</h3>
+        <p>Developing recurrent neural network models to automatically estimate wind turbine noise levels from acoustic measurements, integrating environmental parameters for improved accuracy.</p>
+        <div class="tags">
+          <span class="tag">RNN</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">Acoustics</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3><i class="fa-solid fa-chart-line"></i> Spectrogram Reconstruction</h3>
+        <p>Constructing wind turbine noise spectrograms using deep learning, exploring the contribution of environmental data (wind speed, direction, temperature) to the reconstruction quality.</p>
+        <div class="tags">
+          <span class="tag">Deep Learning</span>
+          <span class="tag">Spectrograms</span>
+          <span class="tag">Signal Processing</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3><i class="fa-solid fa-image"></i> Medical Image Classification</h3>
+        <p>Built a convolutional neural network for medical image classification during Bachelor's internship, applying computer vision techniques to healthcare imaging challenges.</p>
+        <div class="tags">
+          <span class="tag">CNN</span>
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Medical Imaging</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="fade-in">
+    <h2><i class="fa-solid fa-envelope section-icon"></i> Contact</h2>
+
+    <div class="contact-grid">
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:abdelazyz.rkhiss@grenoble-inp.fr">abdelazyz.rkhiss@grenoble-inp.fr</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>GIPSA-Lab, Grenoble, France</span>
+      </div>
+      <div class="contact-item">
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/abdelazyz-rkhiss-03260520a/" target="_blank">LinkedIn Profile</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa-brands fa-google-scholar"></i>
+        <a href="https://scholar.google.fr/citations?user=_xUsSoEAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/Abdelazyz" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Abdelazyz Rkhiss. All rights reserved.</p>
+  </footer>
 
 </div>
 
+<!-- ================= JAVASCRIPT ================= -->
+<script>
+function toggleMenu() {
+  document.getElementById('sidebar').classList.toggle('open');
+}
+function closeMenu() {
+  document.getElementById('sidebar').classList.remove('open');
+}
 
-<div class="publication">
+// Fade-in on scroll
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1 });
 
-<span class="pub-title">
-Constructing wind turbine noise spectrograms using deep learning:
-contribution of environmental data
-</span><br>
-
-<span class="pub-conf">
-Congrès Français d’Acoustique,
-Paris, April 2025.
-</span>
-
-<a class="pdf-link" href="papers/RKHISS_Paper_CFA.pdf" target="_blank">
-[PDF]
-</a>
-
-</div>
-
-
-<div class="publication">
-
-<span class="pub-title">
-Automatic estimation of wind turbine noise with recurrent neural networks
-</span><br>
-
-<span class="pub-conf">
-International Conference Inter-Noise,
-Nantes, August 2024.
-</span>
-
-<a class="pdf-link" href="papers/IN_2024_3265.pdf" target="_blank">
-[PDF]
-</a>
-
-</div>
-
-</section>
-
-
-
-
-
-
-<section id="experience">
-<h2>Research Experience</h2>
-
-<div class="exp-item">
-
-<div class="exp-date">
-03/2023 – 08/2023
-</div>
-
-<div class="exp-content">
-
-<span class="exp-title">
-Research Internship,
-<span class="exp-org">ENGIE Green</span>, Lyon
-</span>
-
-<ul>
-<li>Acoustic signal processing.</li>
-<li>Synthesis of wind turbine noise and dataset creation.</li>
-<li>Deep learning model training, evaluation and visualization.</li>
-</ul>
-
-</div>
-</div>
-
-
-<div class="exp-item">
-
-<div class="exp-date">
-12/2020 – 06/2021
-</div>
-
-<div class="exp-content">
-
-<span class="exp-title">
-End-of-Study Internship,
-<span class="exp-org">FPO</span>
-</span>
-
-<ul>
-<li>Introduction to medical imaging and image processing.</li>
-<li>Built a convolutional neural network model for classification.</li>
-</ul>
-
-</div>
-</div>
-
-</section>
-
-
-  
-
-
-
-  
-<section id="contact">
-<h2>Contact</h2>
-
-<p>Email: abdelazyz.rkhiss@grenoble-inp.fr</p>
-<p>Location: Grenoble, France</p>
-
-</section>
-
-</div>
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
 
 </body>
 </html>
