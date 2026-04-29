@@ -23,7 +23,8 @@ a {
   color: #2563eb;
   text-decoration: none;
   transition: color 0.2s;
-}a:hover {
+} 
+a:hover {
   color: #1d4ed8;
 }
 
@@ -90,12 +91,12 @@ a {
 .sidebar nav a,
 .sidebar-links a {
   display: block;
-  margin: 6px 0;
-  padding: 8px 10px;
+  margin: 4px 0;
+  padding: 7px 10px;
   border-radius: 8px;
   text-decoration: none;
   color: #cbd5e1;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   transition: background 0.2s, color 0.2s;
 }
@@ -164,7 +165,7 @@ p, li, .pub-conf {
   margin-top: 12px;
 }
 
-tag {
+.tag {
   display: inline-block;
   background: #e0e7ff;
   color: #3730a3;
@@ -375,6 +376,45 @@ tag {
   margin: 0 0 12px;
 }
 
+/* ---------- LANGUAGES ---------- */
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.language-item {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+.language-item:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+.lang-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lang-level {
+  font-size: 13px;
+  font-weight: 500;
+  color: #6b7280;
+  background: #f3f4f6;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
 /* ---------- CONTACT ---------- */
 .contact-grid {
   display: flex;
@@ -433,12 +473,10 @@ footer p {
 }
 
 @media (max-width: 768px) {
-  /* Show mobile top bar */
   .mobile-topbar {
     display: flex;
   }
 
-  /* Sidebar becomes off-canvas */
   .sidebar {
     position: fixed;
     left: -300px;
@@ -451,13 +489,11 @@ footer p {
     left: 0;
   }
 
-  /* Content full width */
   .content {
     margin-left: 0;
     padding: 72px 20px 32px;
   }
 
-  /* Experience stacks */
   .exp-item {
     flex-direction: column;
     gap: 4px;
@@ -466,7 +502,6 @@ footer p {
     min-width: auto;
   }
 
-  /* Education stacks */
   .edu-item {
     flex-direction: column;
     gap: 4px;
@@ -475,8 +510,11 @@ footer p {
     min-width: auto;
   }
 
-  /* Projects single column */
   .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .languages-grid {
     grid-template-columns: 1fr;
   }
 
