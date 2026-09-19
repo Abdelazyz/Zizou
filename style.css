@@ -303,41 +303,33 @@ p, li, .pub-conf {
 /* ---------- EXPERIENCE ---------- */
 .exp-item {
   display: flex;
-  gap: 20px;
-  margin-bottom: 32px;
+  gap: 20px;               /* same gutter as .edu-item */
+  margin-bottom: 24px;     /* was 32px — matches Education spacing */
+  align-items: flex-start; /* keep date pinned to the top line */
 }
 
 .exp-date {
-  min-width: 140px;
+  flex: 0 0 110px;         /* same column width as .edu-year */
+  min-width: 110px;
   font-size: 14px;
   font-weight: 600;
   color: #3b82f6;
   line-height: 1.7;
-  padding-top: 2px;
+  padding-top: 2px;        /* aligns baseline with .exp-title */
 }
 
 .exp-content {
   flex: 1;
   max-width: 700px;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 .exp-title {
+  display: block;          /* title on its own line, like .edu-detail <strong> */
   font-weight: 600;
   font-size: 16px;
   color: #111827;
-}
-
-.exp-org {
-  font-style: italic;
-  color: #4b5563;
-}
-
-.exp-content ul {
-  margin-top: 6px;
-  padding-left: 20px;
-}
-.exp-content li {
-  margin-bottom: 4px;
 }
 
 /* ---------- PROJECTS ---------- */
