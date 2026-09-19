@@ -307,6 +307,7 @@ p, li, .pub-conf {
   margin-bottom: 32px;
 }
 
+
 .exp-date {
   min-width: 140px;
   font-size: 14px;
@@ -316,10 +317,12 @@ p, li, .pub-conf {
   padding-top: 2px;
 }
 
+
 .exp-content {
   flex: 1;
   max-width: 700px;
 }
+
 
 .exp-title {
   font-weight: 600;
@@ -327,10 +330,12 @@ p, li, .pub-conf {
   color: #111827;
 }
 
+
 .exp-org {
   font-style: italic;
   color: #4b5563;
 }
+
 
 .exp-content ul {
   margin-top: 6px;
