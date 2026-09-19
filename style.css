@@ -302,31 +302,32 @@ p, li, .pub-conf {
 
 /* ---------- EXPERIENCE ---------- */
 .exp-item {
-display: flex;
-gap: 20px;
-margin-bottom: 32px;
-align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 32px;
 }
- 
+
 .exp-date {
-min-width: 190px;
-font-size: 14px;
-font-weight: 600;
-color: #3b82f6;
-line-height: 1.7;
-padding-top: 0;
-}
- 
-.exp-title {
-display: block;
-font-weight: 600;
-font-size: 16px;
-color: #111827;
+  width: 190px;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3b82f6;
+  line-height: 1.7;
+  padding-top: 0;
 }
 
 .exp-content {
   flex: 1;
   max-width: 700px;
+}
+
+.exp-title {
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+  color: #111827;
 }
 
 .exp-org {
@@ -338,9 +339,11 @@ color: #111827;
   margin-top: 6px;
   padding-left: 20px;
 }
+
 .exp-content li {
   margin-bottom: 4px;
 }
+
 
 /* ---------- PROJECTS ---------- */
 .projects-grid {
