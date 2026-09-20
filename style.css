@@ -504,7 +504,12 @@ footer p {
     margin-left: 0;
     padding: 72px 20px 32px;
   }
-
+   
+   #teaching .exp-date {
+    width: auto;
+    min-width: auto;
+  }
+   
   .exp-item {
     flex-direction: column;
     gap: 4px;
