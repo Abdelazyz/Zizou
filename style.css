@@ -236,6 +236,25 @@ p, li, .pub-conf {
   margin-right: 6px;
 }
 
+
+
+/* ---------- TEACHING: tighter date → text spacing ---------- */
+#teaching .exp-item {
+  gap: 12px;
+}
+
+#teaching .exp-date {
+  min-width: 56px;   /* years only, no ranges — 140px is far too wide */
+  width: 56px;
+}
+
+#teaching .exp-content ul {
+  padding-left: 18px;
+  margin-top: 4px;
+}
+
+
+
 /* ---------- PUBLICATIONS ---------- */
 .publication {
   background: #fff;
